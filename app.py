@@ -65,7 +65,7 @@ def delete_task(id):
     tasks.remove(task)
     return jsonify({"message": "Tarefa deletada com sucesso"})
 
-
+#tenta mudar git
 if __name__ == "__main__":
     app.run(debug=True)
 
